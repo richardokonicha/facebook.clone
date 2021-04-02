@@ -27,9 +27,20 @@ module.exports = {
             use: ['style-loader', 'css-loader'],
          },
          {
-            test: /\.(png|j?g|svg|gif)?$/,
+            test: /\.(png|jpeg|svg|gif|jpg)?$/,
             use: 'file-loader'
-         }
+         },
+         {
+            test: /\.(woff|woff2|ttf|otf)$/,
+            loader: 'file-loader',
+            include: [/fonts/],
+      
+            options: {
+              name: '[hash].[ext]',
+              outputPath: 'css/',
+              publicPath: url => 'css/' + url
+            }
+          },
 ]
    },
    plugins: [
