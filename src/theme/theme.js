@@ -1,5 +1,4 @@
 import { createMuiTheme } from '@material-ui/core'
-import purple from '@material-ui/core/colors/purple'
 import {helvetica} from './fontConfig'
 
 const theme = createMuiTheme({

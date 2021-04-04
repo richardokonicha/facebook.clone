@@ -1,21 +1,12 @@
 import React from "react";
-
 import { makeStyles } from "@material-ui/core/styles";
-import ImageIcon from "@material-ui/icons/Image";
-import WorkIcon from "@material-ui/icons/Work";
-import BeachAccessIcon from "@material-ui/icons/BeachAccess";
 import {
-  List,
-  ListItem,
-  ListItemText,
-  ListItemAvatar,
   Avatar,
   Card,
   CardActions,
   CardContent,
   Button,
   Typography,
-  Box,
   CardHeader,
 } from "@material-ui/core";
 
