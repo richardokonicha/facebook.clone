@@ -1,11 +1,14 @@
 import React from "react";
-import {
-  Box,
-  Container,
-} from "@material-ui/core";
-import ProfilePost from '../subcomponents/ProfilePost'
-import ProfileAbout from '../subcomponents/ProfileAbout'
+import { Box, Container } from "@material-ui/core";
+import ProfilePost from "./ProfilePost";
+import ProfileAbout from "./ProfileAbout";
+import { makeStyles } from "@material-ui/core/styles";
 
+const useStyles = makeStyles((theme) => ({
+  container: {
+    backgroundColor: theme.palette.secondary.darker,
+  },
+}));
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -24,16 +27,19 @@ function TabPanel(props) {
 
 const ProfileBody = (props) => {
   const { value } = props;
+  const classes = useStyles();
   return (
-    <Container>
+    <div className={classes.container}>
+    <Container >
       <TabPanel value={value} index={0}>
-        <ProfilePost/>
+        <ProfilePost />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <ProfileAbout/>
+        <ProfileAbout />
       </TabPanel>
     </Container>
+    </div>
   );
 };
 
-export default ProfileBody
+export default ProfileBody;
