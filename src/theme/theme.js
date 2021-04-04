@@ -13,14 +13,19 @@ const theme = createMuiTheme({
         secondary: {
             light: '#5b5b5b',
             main: '#333333',
+            grey: '#FFFFFFA1',
             dark: '#232323',
+            darker: '#1c1e21',
             contrastText: '#fff'
         },
         text: {
-            light: '#ffffff',
-            main: '#9fa1a4',
+            lighter: '#ffffff',
+            light: '#B0B3B8',
+            main: '#E4E6EB',
             dark: '#000000',
         },
+        textPrimary: '#E4E6EB',
+        textSecondary: '#E4E6EB'
 
     },
     typography: {
@@ -34,6 +39,9 @@ const theme = createMuiTheme({
                 '@font-face': [helvetica]
             }
         }
+    },
+    custom: {
+        borderSize: "max(0px, min(8px, ((100vw - 4px) - 100%) * 9999)) / 8px"
     }
 })
 
