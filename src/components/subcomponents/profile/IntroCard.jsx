@@ -1,7 +1,5 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import ImageIcon from "@material-ui/icons/Image";
-import WorkIcon from "@material-ui/icons/Work";
 import {
   School,
   BusinessCenter,
@@ -13,13 +11,9 @@ import {
   ListItem,
   ListItemText,
   ListItemAvatar,
-  ListItemIcon,
-  Avatar,
   Card,
-  CardActions,
   CardContent,
   Button,
-  Typography,
   Box,
 } from "@material-ui/core";
 
