@@ -1,4 +1,4 @@
-import Helvetica from '../../static/fonts/Helvetica-Font/Helvetica.ttf'
+import Helvetica from '../static/fonts/Helvetica-Font/Helvetica.ttf'
 
 const helvetica = {
     fontfamily: 'helvetica',
