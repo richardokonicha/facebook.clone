@@ -11,7 +11,7 @@ import {
   Tab,
   Toolbar,
 } from "@material-ui/core";
-import { makeStyles, withStyles } from "@material-ui/core/styles";
+import { makeStyles } from "@material-ui/core/styles";
 import {
   CameraAlt,
   Edit,
@@ -85,16 +85,12 @@ function a11yProps(index) {
   };
 }
 
-
-
 const Header = (props) => {
   const classes = useStyles();
   const ProfileImage =
     "https://res.cloudinary.com/konichar/image/upload/v1617337103/projects/p1_khpp2b.jpg";
 
   const { value, handleChange } = props;
-
-
 
   return (
     <>
@@ -243,7 +239,6 @@ const Header = (props) => {
           </Toolbar>
         </Container>
       </Box>
-
     </>
   );
 };

@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# The Facebook Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/konichar/facebook.clone">
+    <img src="src/static/images/avatar/p1.jpg" alt="Logo" width="80" height="80">
+  </a>
 
-In the project directory, you can run:
+  <h3 align="center">Facebook helps you connect and share with the people in your life.</h3>
 
-### `yarn start`
+  <p align="center">
+   A clone of the facebook profile page built with React and Material UI.
+    <br />
+    <a href="https://github.com/konichar/facebook.clone"><strong>Explore the site »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/konichar/facebook.clone/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/konichar/facebook.clone/issues">Request Feature</a>
+  </p>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `yarn test`
+<!-- [![The Facebook Clone][product-screenshot]](media/readme/desktop.png) -->
+<p align=center>
+<a href="">
+ <img src="src/static/images/avatar/profilepage.png" alt="the Facebook clone">
+</a>
+</p>
+This web application is written in React & Material-UI  🛫
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project can be used as a boiler plate for more ambitious projects 
 
-### `yarn build`
+### Built With 💖
+Major frameworks and services used in the development of this project.
+* [React](https://reactjs.org/)  -- A JavaScript library for building user interfaces
+* [Material-UI](https://material-ui.com) -- React components for faster and easier web development. Build your own design system, or start with Material Design.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [Vercel](https://www.heroku.com/) -- Vercel combines the best developer experience with an obsessive focus on end-user performance.
+Our platform enables frontend teams to do their best work.
+<!-- GETTING STARTED -->
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running follow these simple example steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Clone the repository, 
+  ```sh
+  git clone https://github.com/konichar/facebook.clone.git
+  ```
 
-### `yarn eject`
+### React Frontend Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+You need to have the following installed
+1. Nodejs
+  [https://nodejs.org/](https://nodejs.org/)
+  
+2. Install application React dependencies
+  ```sh
+  yarn install
+  ```
+3. Start frontend server
+  ```sh
+  yarn start
+  ```
+  The Frontend server should be `localhost:3000.`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- USAGE EXAMPLES -->
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This project is preconfigured with create react app for production build and snowpack for development
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+<!-- ROADMAP -->
+## Roadmap
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+See the [open issues](https://github.com/konichar/facebook.clone/issues) for a list of proposed features (and known issues).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- CONTRIBUTING -->
+## Contributing
 
-### Code Splitting
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated** 😊
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Analyzing the Bundle Size
+<!-- LICENSE -->
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### Making a Progressive Web App
+<!-- CONTACT -->
+## Contact
+Project Link: [https://github.com/konichar/facebook.clone](https://github.com/konichar/facebook.clone)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Demo Link: [https://github.com/konichar/facebook.clone](https://github.com/konichar/facebook.clone)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align=center>
+<a href="https://github.com/konichar/facebook.clone">
+  <img src="media/readme/addphoto.png" alt="The Facebook clone">
+<a/>
+If you find this project interesting don't forget to leave a star 💥
+</p>
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[linkedin-url]: https://linkedin.com/in/richardokonicha
